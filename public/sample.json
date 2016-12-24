@@ -1,0 +1,75 @@
+[
+  {
+    "Performer": "Tom",
+    "State": "New York",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 40.6700,
+    "lng" : -73.9400
+  },
+  {
+    "Performer": "Maria",
+    "State": "Las Vegas",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 36.1215,
+    "lng" : -115.1522
+  },
+  {
+    "Performer": "James",
+    "State": "Chicago",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 41.8819,
+    "lng" : -87.6278
+  },
+  {
+    "Performer": "Xuang",
+    "State": "Los Angeles",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 34.0500,
+    "lng" : -118.2500
+  },
+  {
+    "Performer": "Krish",
+    "State": "Chicago",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 41.8369,
+    "lng" : -87.6278
+  },
+  {
+    "Performer": "Michel",
+    "State": "New York",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 40.6700,
+    "lng" : -73.9400
+  },
+  {
+    "Performer": "Kishan",
+    "State": "Las Vegas",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 36.1215,
+    "lng" : -115.1739
+  },
+  {
+    "Performer": "Radha",
+    "State": "Las Vegas",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 36.1215,
+    "lng" : -115.1739
+  },
+  {
+    "Performer": "Mark",
+    "State": "New York",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 40.6700,
+    "lng" : -73.9400
+
+  },
+  {
+    "Performer": "John",
+    "State": "Los Angeles",
+    "ShowDate": ["03/03/2016", "10/16/2016"],
+    "lat" : 34.0500,
+    "lng" : -118.2500
+  }
+]
+
+

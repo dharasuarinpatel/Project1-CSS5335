@@ -1,0 +1,23 @@
+		
+			<section class="s1">
+					<table id="tbl" class="table" style="margin: 0 auto">
+		           		<thead align="center">
+		           			<tr>
+		               			<th>Performer</th>
+		               			<th>ShowDate</th>
+		               			<th>State</th>
+		           			</tr>
+		           		</thead>
+		           		<tbody align="left">
+		           			<tr ng-repeat="d in myWelcome">
+				                <td>{{d.Performer}}</td>
+				                <td>{{d.ShowDate[0] + "   " + "&"+ "  " + d.ShowDate[1]}}</td>
+					            <td><a ui-sref=".map({lat: d.lat, lng: d.lng, state: d.State})">{{d.State}}</a></td>
+		            		</tr>
+		            	</tbody>
+		        	</table><br>
+		        	<h4 style="color:red">{{message}}</h4>
+			</section><section class="s2" ui-view>
+					
+			</section>
+		

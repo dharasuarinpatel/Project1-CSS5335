@@ -1,0 +1,146 @@
+html, body{
+			font-style: Arial;
+			padding: 0;
+			margin: 0;
+			height: 100%;
+			background-color:#000000 !important;
+		}
+		h1,h2,h3,h4,h5,h6{
+			margin: 0 auto;
+		}
+		a{
+			text-decoration: none;
+		}
+		.maincontainer{
+			text-align: center;
+			background-color: #bcc4ba;
+			position: relative;
+			min-height: 100%;
+			margin: 0 auto;
+			width: 100%;
+		}
+		.header{
+			background-image: url("../image/concert.png");
+			background-repeat: no-repeat;
+    		background-position: top left;
+    		background-size: 25% 100%;
+    		/*background-align:;*/
+			background-color: #a5d341;
+			padding: 5% 0;
+		}
+		.nav{
+			background-color: #424442;
+			vertical-align: top;
+			height: 3%;
+		}
+		.nav .ul{
+			padding: 0;
+			margin: 0;
+			text-align: center;
+		}
+		.nav .ul .li{
+			border-bottom-style: solid;
+			border-bottom-color: #8c8e8b;
+			box-shadow: currentColor;
+			padding: 0.1%;
+			margin: 0;
+		}
+		.nav .ul .li a{
+			color: #ecefe1;
+			/*text-align:left; */
+		}
+		.nav .ul .li:hover, .nav .ul .li a:hover{
+			text-decoration:none; 
+			background-color: #b74c05;
+		}
+		.body{
+			/*overflow: hidden;*/
+			text-align: center;
+			position: relative;
+			padding: 1%;
+			padding-bottom: 3%;
+		}
+		.body .s1, .body .s2{
+			vertical-align: top;
+			/*position: relative;*/
+			margin: 1% auto 1% auto;
+		}
+		#map{
+			height:300px;
+            width:300px;
+            padding-bottom: 2%;
+            margin: 2% auto 2% auto;
+            outline-style: hidden;
+           
+            /*    box-shadow: 3px 3px 10px gray;*/
+        }
+        .footer{
+        	background-color: #F5F5F5;
+        	position:absolute;
+        	bottom: 0;
+        	width: 100%;
+        	text-align: center;
+        }
+
+		/*@media screen and (max-width: 900px){
+		.maincontainer{
+			width: 100%;
+		}
+		.header{
+			padding: 5% 0;
+		}
+		.nav .ul{
+			text-align: center; 
+		}
+		.nav .ul .li{
+			border-bottom-style: solid;
+			border-bottom-color: #8c8e8b;
+			box-shadow: currentColor;
+			padding: 0.3%;
+		}
+		.body .s1, .body .s2{
+			margin: 1% auto 1% auto;
+		}
+		#map{
+            height:300px;
+            width:300px;
+            padding: 0;
+            margin-top: 2%;
+        }
+
+	}*/
+	@media screen and (min-width: 901px){
+		
+		.maincontainer{
+			width: 70%;
+		}
+		.header{
+			padding: 5% 0;
+		}
+		.nav .ul{
+			margin-left: 1%;
+			text-align: left;
+		}
+		.nav .ul .li{
+			padding: 0.3%;
+			display: inline-block;
+			border-bottom-style: none;
+			box-shadow: none;
+			margin: 0;
+		}
+		.body{
+			text-align: center;
+		}
+		.body .s1, .body .s2{
+			display: inline-block;
+			margin:3%;
+		}
+		#map{
+			display: inline-block;
+            height:300px;
+            width:300px;
+            margin-top: 5%;
+            /*margin: 0 auto;*/
+        }
+
+	}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--For angularjs-->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+	<!--For internal files-->
+    <script src="../js/Controller.js"></script>
+	<link rel="stylesheet" href="../style/style.css"/>
+	<!--For google map-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB917DO7MPBmw-Q8DJdx0d9guvuFQzbcBc&callback=initMap"></script>
+	<!--For Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+</head>
+<body>
+<div class="maincontainer">
+	<header class="header">
+		<h1>Music Concert</h1>
+	</header>
+	<nav class="nav">
+		<ul class="ul">
+			<li class="li"><a ui-sref="home"><h4>Home</h4></a></li>
+			<li class="li"><a ui-sref="concerts"><h4>Concer Details</h4></a></li>
+		</ul>
+	</nav>
+	<section class="body" ui-view>
+	</section>
+	<footer class="footer">
+		<h6>Created By : Dhara Patel</h6>
+	</footer>
+</div>	
+</body>
+</html>
